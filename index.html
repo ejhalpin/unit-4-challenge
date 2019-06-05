@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/card.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/test.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>RPG Battle - FFVII</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">Select Your Fighter!</div>
+      <div id="nav">
+        <div id="rotateClockwise"><i class="fas fa-chevron-left"></i></div>
+        <div id="rotateCounterClockwise"><i class="fas fa-chevron-right"></i></div>
+      </div>
+      <div class="scene">
+        <div class="deck"></div>
+      </div>
+      <div class="jumbotron">
+        <div class="box">
+          <h2>Your Fighter</h2>
+          <div id="fighter"></div>
+        </div>
+        <div class="button-box">
+          <button id="attack-button" disabled>Attack</button>
+        </div>
+        <div class="box">
+          <h2>Your Opponents</h2>
+          <div id="enemies"></div>
+        </div>
+      </div>
+      <div id="fight-message"></div>
+    </div>
+    <div class="query"></div>
+    <script src="assets/javascript/script.js"></script>
+  </body>
+</html>

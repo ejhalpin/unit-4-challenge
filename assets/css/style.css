@@ -1,0 +1,133 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  flex: 1 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #000;
+  background-image: url("../images/background.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+#header {
+  font-size: 2.5rem;
+  color: #cdcd00;
+  text-shadow: 0 0 2px black, 0 0 6px lightslategray;
+  padding-top: 5px;
+}
+.scene {
+  position: relative;
+  width: 170px;
+  height: 245px;
+  perspective: 1000px;
+}
+.deck {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+h2 {
+  margin: 3px 0;
+}
+#rotateClockwise,
+#rotateCounterClockwise {
+  cursor: pointer;
+  padding: 0 20px;
+  font-size: 3rem;
+  color: #cdcd00;
+  text-shadow: 0 0 2px black, 0 0 6px lightslategray;
+}
+
+.jumbotron {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 775px;
+  padding-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.5);
+  margin-top: 20px;
+}
+
+.visible {
+  width: 775px;
+  height: 90px;
+  line-height: 30px;
+  background-color: rgba(128, 128, 128, 0.8);
+  margin-top: 20px;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+#fighter {
+  width: 150px;
+  height: 225px;
+}
+.button-box {
+  padding: 0 10px;
+}
+
+#enemies {
+  width: 480px;
+  height: 225px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.query {
+  display: none;
+  width: 1000px;
+}
+
+.box {
+  text-align: center;
+  font-size: 12px;
+  color: #cdcd00;
+  text-shadow: 0 0 2px black, 0 0 6px lightslategray;
+}
+
+#attack-button {
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightslategray;
+  color: #cdcd00;
+  text-shadow: 0 0 2px black, 0 0 6px lightslategray;
+  border: 1px solid #cdcd00;
+}
+
+#attack-button:disabled {
+  opacity: 0.5;
+}
+
+#attack-button:hover:enabled {
+  box-shadow: 0 0 2px 2px white;
+  text-shadow: 0 0 2px black;
+}
+
+p {
+  padding: 5px;
+  margin: 0;
+}

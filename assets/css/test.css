@@ -1,0 +1,26 @@
+@media only screen and (max-width: 750px) {
+  .card {
+    width: 125px;
+    height: 187.5px;
+  }
+  .character-img {
+    width: 125px;
+    height: 125px;
+  }
+  .stats {
+    width: 125px;
+    height: 62.5px;
+  }
+  .stat-bar {
+    text-align: left;
+    width: 95px;
+    height: 10px;
+  }
+  .scene {
+    width: 145px;
+    height: 207.5px;
+  }
+  .query {
+    width: 750px;
+  }
+}
