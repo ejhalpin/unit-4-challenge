@@ -1,26 +1,28 @@
 var characters = [
-  { name: "Aeris", imgSrc: "assets/images/aeris.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Barret", imgSrc: "assets/images/barret.png", playable: true, hp: 125, ap: 0, ca: 15 },
-  { name: "Cait-Sith", imgSrc: "assets/images/cait-sith.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Gold Chocobo", imgSrc: "assets/images/chocobo-gold.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Regualr Chocobo", imgSrc: "assets/images/chocobo-regular.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Cid", imgSrc: "assets/images/cid.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Cloud", imgSrc: "assets/images/cloud.png", playable: true, hp: 100, ap: 10, ca: 0 },
-  { name: "Diamond Weapon", imgSrc: "assets/images/diamond-weapon.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Emerald Weapon", imgSrc: "assets/images/emerald-weapon.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Godo", imgSrc: "assets/images/godo.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Hojo", imgSrc: "assets/images/hojo.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Palmer", imgSrc: "assets/images/palmer.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Red XIII", imgSrc: "assets/images/red-13.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Reno", imgSrc: "assets/images/reno.png", playable: true, hp: 125, ap: 0, ca: 5 },
-  { name: "Ruby Weapon", imgSrc: "assets/images/ruby-weapon.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Rufus", imgSrc: "assets/images/rufus.png", playable: true, hp: 150, ap: 0, ca: 20 },
-  { name: "Sephiroth", imgSrc: "assets/images/sephiroth.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Tifa", imgSrc: "assets/images/tifa.png", playable: true, hp: 60, ap: 20, ca: 50 },
-  { name: "Vincent", imgSrc: "assets/images/vincent.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Yuffie", imgSrc: "assets/images/yuffie.png", playable: false, hp: 60, ap: 20, ca: 50 },
-  { name: "Zack", imgSrc: "assets/images/zack.png", playable: false, hp: 60, ap: 20, ca: 50 }
+  { name: "Aeris", imgSrc: "assets/images/aeris.png", playable: false, hp: 100, ap: 9, ca: 10 }, //0,0
+  { name: "Barret", imgSrc: "assets/images/barret.png", playable: true, hp: 125, ap: 8, ca: 15 },
+  { name: "Cait-Sith", imgSrc: "assets/images/cait-sith.png", playable: false, hp: 105, ap: 11, ca: 9 }, //3,
+  { name: "Gold Chocobo", imgSrc: "assets/images/chocobo-gold.png", playable: false, hp: 200, ap: 20, ca: 28 }, //
+  { name: "Regualr Chocobo", imgSrc: "assets/images/chocobo-regular.png", playable: false, hp: 90, ap: 25, ca: 6 },
+  { name: "Cid", imgSrc: "assets/images/cid.png", playable: false, hp: 100, ap: 8, ca: 11 },
+  { name: "Cloud", imgSrc: "assets/images/cloud.png", playable: true, hp: 100, ap: 10, ca: 10 },
+  { name: "Diamond Weapon", imgSrc: "assets/images/diamond-weapon.png", playable: false, hp: 500, ap: 50, ca: 35 },
+  { name: "Emerald Weapon", imgSrc: "assets/images/emerald-weapon.png", playable: false, hp: 250, ap: 28, ca: 28 },
+  { name: "Godo", imgSrc: "assets/images/godo.png", playable: false, hp: 125, ap: 12, ca: 8 },
+  { name: "Hojo", imgSrc: "assets/images/hojo.png", playable: false, hp: 100, ap: 15, ca: 20 },
+  { name: "Palmer", imgSrc: "assets/images/palmer.png", playable: false, hp: 119, ap: 13, ca: 16 },
+  { name: "Red XIII", imgSrc: "assets/images/red-13.png", playable: false, hp: 100, ap: 9, ca: 19 },
+  { name: "Reno", imgSrc: "assets/images/reno.png", playable: true, hp: 125, ap: 12, ca: 5 },
+  { name: "Ruby Weapon", imgSrc: "assets/images/ruby-weapon.png", playable: false, hp: 300, ap: 5, ca: 2 },
+  { name: "Rufus", imgSrc: "assets/images/rufus.png", playable: true, hp: 150, ap: 5, ca: 20 },
+  { name: "Sephiroth", imgSrc: "assets/images/sephiroth.png", playable: false, hp: 175, ap: 18, ca: 60 },
+  { name: "Tifa", imgSrc: "assets/images/tifa.png", playable: true, hp: 100, ap: 12, ca: 23 },
+  { name: "Vincent", imgSrc: "assets/images/vincent.png", playable: false, hp: 119, ap: 11, ca: 21 },
+  { name: "Yuffie", imgSrc: "assets/images/yuffie.png", playable: false, hp: 108, ap: 12, ca: 12 },
+  { name: "Zack", imgSrc: "assets/images/zack.png", playable: false, hp: 141, ap: 14, ca: 21 }
 ];
+//Aeris, Hojo, Red, Sephiroth, Cait, Palmer, Cid, Regular, Godo, Yuffie, Vincent, Ruby, Gold, Emerald, Diamond, Zack
+var unlockOrder = [0, 10, 12, 16, 2, 11, 5, 4, 9, 19, 18, 14, 3, 8, 7, 20];
 //global variables
 var n;
 var nShowing;
@@ -32,8 +34,6 @@ var fighterSet = false;
 var enemiesNeeded = 3;
 var playableCharacters = [];
 var halfSceneWidth = 85;
-var mediaCheck = window.matchMedia("(max-width: 750px)");
-mediaCheck.addListener(checksize);
 
 //global elements
 var container = $(".container");
@@ -45,14 +45,9 @@ var fighter = $("#fighter");
 var enemies = $("#enemies");
 var attackButton = $("#attack-button");
 var message = $("#fight-message");
+var resetButton = $("<button>Play Again?</button>").attr("id", "reset-button");
 
 //function definitions
-function checksize(mediaCheck) {
-  if (mediaCheck.matches) {
-    halfSceneWidth = 72.5;
-    stackDeck([]);
-  }
-}
 
 function buildCard(charObj) {
   var card = $("<div>")
@@ -181,6 +176,7 @@ function toggleDeck(m) {
         nav.detach();
         scene.detach();
         message.toggleClass("visible");
+        console.log(m + "visible class toggled to on");
         container.animate({ opacity: 1 }, 250);
       }
     );
@@ -191,7 +187,9 @@ function toggleDeck(m) {
       nav.prependTo(container);
       header.prependTo(container);
       message.toggleClass("visible");
+      console.log(m + "visible class toggled to off");
       container.animate({ opacity: 1 }, 250);
+      resetButton.detach();
     });
   }
 }
@@ -232,9 +230,10 @@ function handleCard(cardObject, remove = false) {
 
 function cardClick() {
   var card = $(this);
+
   var character = fetchCardData(card.attr("name"));
   var cardVal = parseInt(card.attr("value"));
-
+  //console.log(card.attr("name") + " has a value");
   switch (cardVal) {
     case 0: //a card in the deck was selected
       if (!fighterSet) {
@@ -352,18 +351,12 @@ function attack() {
   if (selectedOpponent == undefined) {
     return;
   }
-  if (interval != undefined) {
-    clearInterval(interval);
-  }
   hasFought = true;
   $.each(opponents, function(index, val) {
     val.off("click");
   });
   opponentHP -= fighterAP;
   fighterAP += selectedFighter.ap;
-  var attackMessage = selectedFighter.name + " attacked " + selectedOpponent.name + " and dealt " + fighterAP + " damage.";
-  type(attackMessage, message, false);
-
   opponentHpDiv.css("width", ((opponentHP / selectedOpponent.hp) * 100).toString() + "%");
 
   if (fighterAP > 118) {
@@ -379,15 +372,18 @@ function attack() {
     fighterApDiv.css("width", fighterAP + "px");
   }
   fighterHP -= opponentCA;
+  var attackMessage = selectedFighter.name + " attacked " + selectedOpponent.name + " and dealt " + fighterAP + " damage.";
+
   var caMessage = selectedOpponent.name + " counter-attacked and dealt " + opponentCA + " damage.";
-  setTimeout(function() {
-    type(caMessage, message, true);
-  }, 2500);
+  message.html(attackMessage).append("<p>" + caMessage + "</p>");
   fighterHpDiv.css("width", ((fighterHP / selectedFighter.hp) * 100).toString() + "%");
   //check for victory or loss
   if (opponentHP <= 0) {
     opponentCount--;
     var winMessage = selectedFighter.name + " defeated " + selectedOpponent.name + "!";
+    setTimeout(function() {
+      message.html(winMessage);
+    }, 500);
     opponentCard.attr("value", "3");
     opponentCard.toggleClass("selected");
     opponentCard.toggleClass("defeated");
@@ -408,17 +404,58 @@ function attack() {
         header.text("Attack!");
         break;
       case 0:
-        //whatever happens when we win
-        //we def need to skip the else if after....
+        setTimeout(function() {
+          message.html("You won!");
+          var newChar = characters[unlockOrder.shift()];
+          newChar.playable = true;
+          message.append("<p>You have unlocked " + newChar.name + "!</p>");
+        }, 500);
+        setTimeout(function() {
+          message.html(resetButton);
+          resetButton.on("click", resetGame);
+          attackButton.attr("disabled", true);
+        }, 2000);
+
         break;
       default:
         console.log("fight default");
     }
   } else if (fighterHP <= 0) {
     header.text("You Lost!");
-    type("Refresh to play again.", message, false);
+    message.html(resetButton);
+    resetButton.on("click", resetGame);
+    attackButton.attr("disabled", true);
   }
 }
+
+function resetGame() {
+  opponents = []; //holds the cards for the opponents
+  selectedOpponent = undefined; //holds the object from the characters array
+  selectedFighter = undefined;
+  fighterHP = undefined;
+  opponentHP = undefined;
+  fighterAP = undefined;
+  fighterCA = undefined;
+  opponentCA = undefined;
+  fighterHpDiv = undefined;
+  fighterApDiv = undefined;
+  fighterStatDiv = undefined;
+  opponentHpDiv = undefined;
+  opponentCard = undefined;
+  opponentCount = 3;
+  hasFought = false;
+  fighterSet = false;
+  enemiesNeeded = 3;
+  deck.empty();
+  fighter.empty();
+  enemies.empty();
+  playableCharacters = characters.filter(function(value) {
+    return value.playable;
+  });
+  stackDeck(playableCharacters);
+  toggleDeck(0);
+}
+
 function getOpponents() {
   $.each(enemies.children().toArray(), function(dex, val) {
     opponents.push($(val));
@@ -438,7 +475,7 @@ function getOpponents() {
   }
 }
 function select() {
-  console.log($(this).attr("name"));
+  //console.log($(this).attr("name"));
   //update the selected character, if any
   opponentCard = $(this);
   if (selectedOpponent != undefined) {
@@ -456,7 +493,6 @@ function select() {
   header.text("Attack!");
 }
 $(document).ready(function() {
-  checksize(mediaCheck);
   playableCharacters = characters.filter(function(value) {
     return value.playable;
   });
@@ -471,21 +507,3 @@ $(document).ready(function() {
     rotateDeck();
   });
 });
-
-var interval;
-
-function type(text = "", destination, append = true) {
-  if (!append) {
-    destination.empty();
-  }
-  var i = 0;
-  interval = setInterval(function() {
-    destination.append(text[i]);
-    i++;
-    if (i === text.length) {
-      destination.append("<br/>");
-      clearInterval(interval);
-      interval = undefined;
-    }
-  }, 50);
-}

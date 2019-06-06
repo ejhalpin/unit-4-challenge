@@ -80,6 +80,7 @@ h2 {
   font-size: 1.5rem;
   border-radius: 5px;
 }
+
 #fighter {
   width: 150px;
   height: 225px;
@@ -107,7 +108,7 @@ h2 {
   text-shadow: 0 0 2px black, 0 0 6px lightslategray;
 }
 
-#attack-button {
+button {
   font-size: 2rem;
   padding: 10px;
   border-radius: 5px;
@@ -118,11 +119,11 @@ h2 {
   border: 1px solid #cdcd00;
 }
 
-#attack-button:disabled {
+button:disabled {
   opacity: 0.5;
 }
 
-#attack-button:hover:enabled {
+button:hover:enabled {
   box-shadow: 0 0 2px 2px white;
   text-shadow: 0 0 2px black;
 }
@@ -130,4 +131,11 @@ h2 {
 p {
   padding: 5px;
   margin: 0;
+}
+
+#fight-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
